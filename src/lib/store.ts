@@ -94,12 +94,14 @@ export const useDiscoveryStore = create<DiscoveryState>((set) => ({
 interface PreferencesState {
   platforms: string[];
   preferredGenres: string[];
+  discoveryMode: DiscoveryMode;
   voiceSpeed: number;
   notificationsEnabled: boolean;
   theme: 'light' | 'dark' | 'system';
 
   setPlatforms: (platforms: string[]) => void;
   setPreferredGenres: (genres: string[]) => void;
+  setDiscoveryMode: (mode: DiscoveryMode) => void;
   setVoiceSpeed: (speed: number) => void;
   setNotificationsEnabled: (enabled: boolean) => void;
   setTheme: (theme: 'light' | 'dark' | 'system') => void;
@@ -109,12 +111,14 @@ interface PreferencesState {
 export const usePreferencesStore = create<PreferencesState>((set) => ({
   platforms: ['netflix', 'tv5monde'],
   preferredGenres: [],
+  discoveryMode: 'avatar',
   voiceSpeed: 1.0,
   notificationsEnabled: true,
   theme: 'system',
 
   setPlatforms: (platforms) => set({ platforms }),
   setPreferredGenres: (preferredGenres) => set({ preferredGenres }),
+  setDiscoveryMode: (discoveryMode) => set({ discoveryMode }),
   setVoiceSpeed: (voiceSpeed) => set({ voiceSpeed }),
   setNotificationsEnabled: (notificationsEnabled) => set({ notificationsEnabled }),
   setTheme: (theme) => set({ theme }),
