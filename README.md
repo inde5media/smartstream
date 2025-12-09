@@ -10,8 +10,10 @@ The **45-minute scroll problem** - users spend too long finding content across m
 
 ## 🚀 Solution
 
-- **Voice OR Avatar-guided discovery** - Choose your experience (ANAM CARA II avatar or voice-only) - https://anam.referral-factory.com/ulk7ZvjH
+- **Voice OR Avatar-guided discovery** - Choose your experience (ANAM CARA II avatar or voice-only) - 
+https://anam.referral-factory.com/ulk7ZvjH
 - **96x faster semantic search** - AgentDB vector search understands meaning, not just keywords
+https://agentdb.ruv.io/
 - **Cross-platform recommendations** - One query searches TV5Monde, Netflix, HBO, Disney+
 - **One-tap launch** - Deep links directly to streaming apps
 
